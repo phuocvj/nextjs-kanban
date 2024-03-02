@@ -31,7 +31,7 @@ export default function Home() {
   return (
     <main className="min-h-dvh text-white bg-gradient-to-br from-black to-zinc-900 dark">
       <nav className="px-3 md:px-10 py-3 mb-5 flex justify-between items-center">
-        <h4 className="flex items-center text-lg gap-3 font-semibold tracking-tight"><IconLayoutKanban className="text-purple-500" /> NextBoard</h4>
+        <h4 className="flex items-center text-lg gap-3 font-semibold tracking-tight"><IconLayoutKanban className="text-purple-500" /> IT NextBoard</h4>
         <Link href='https://github.com/phuocvj'><IconBrandGithub /></Link>
       </nav>
 

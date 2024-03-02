@@ -16,13 +16,13 @@ export default async function CustomSignInPage() {
                 <Card className="min-w-96 shadow-xl bg-white border-2 border-primary" shadow="none">
                     <CardHeader className="px-10 py-5 flex items-center">
                       <IconLayoutKanban className="text-primary w-8 h-8 md:w-14 md:h-14" />
-                      <h3 className="text-3xl md:text-5xl tracking-tighter text-center w-full font-bold">Next Kanban</h3>  
+                      <h3 className="text-3xl md:text-5xl tracking-tighter text-center w-full font-bold">IT Next Kanban</h3>  
                     </CardHeader>
                     <CardBody className="space-y-3 p-10 pt-0">
                         <p className="uppercase text-xs text-center text-primary">- OAuth- </p>
                         <SignInGithub />
                         <SignInGoogle />
-                        <SignInDiscord />
+                        {/* <SignInDiscord /> */}
                     </CardBody>
                 </Card>
             </div>
