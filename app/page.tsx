@@ -63,7 +63,7 @@ export default function Home() {
             <p className="text-lg text-zinc-500 mb-5">
               The perfect <strong>solution</strong> to all of your task
               management needs,{" "}
-              <span className="text-purple-500">powered by AI</span>
+              <span className="text-purple-500">written by <a href="https://github.com/phuocvj" target="_blank">Phước.IT</a></span>
             </p>
             <div className="flex gap-5">
               <Button color="secondary" as={Link} href="/board">
