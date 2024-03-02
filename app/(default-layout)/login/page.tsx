@@ -9,7 +9,7 @@ import SignInDiscord from "./SignInDiscord";
 export default async function CustomSignInPage() {
     const session = await auth();
     if (session) {
-        redirect("/dashboard");
+        redirect("/board");
       } else {
         return (
             <div className="flex justify-center items-center h-full">

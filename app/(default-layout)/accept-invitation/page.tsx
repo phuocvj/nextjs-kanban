@@ -13,7 +13,7 @@ export default async function AcceptInvitation({ searchParams }: { searchParams:
     }
 
     if (!session || !session.user|| !session.user.email) { //|| !session.user || !session.user.email || !session.user.id
-        return <p><Link className='text-primary' href='/api/auth/signin'>Login or create an account</Link> to view this invitation.</p>;
+        return <p><Link className='text-primary' href='/api/auth/signin'>Login or create an account</Link> to view this invitation.</p>; //href='/api/auth/signin'
     }
 
     try {
