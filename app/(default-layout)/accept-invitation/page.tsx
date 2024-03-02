@@ -7,12 +7,12 @@ import { Card } from '@/ui/Card/Card';
 export default async function AcceptInvitation({ searchParams }: { searchParams: { token?: string } }) {
     const session = await auth();
     const token = searchParams.token;
-
+    console.log(session);
     if (!token) {
         return <p>Invalid or missing token.</p>;
     }
 
-    if (!session || !session.user || !session.user.email || !session.user.id) {
+    if (!session || !session.user|| !session.user.email) { //|| !session.user || !session.user.email || !session.user.id
         return <p><Link className='text-primary' href='/api/auth/signin'>Login or create an account</Link> to view this invitation.</p>;
     }
 
