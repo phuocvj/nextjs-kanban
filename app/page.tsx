@@ -78,7 +78,7 @@ export default function Home() {
           </div>
           <div className="lg:block">
             <Image
-              src={banner}
+              src="/fake.gif"
               alt="Screenshot of NextBoard"
               width={2000}
               height={1250}
