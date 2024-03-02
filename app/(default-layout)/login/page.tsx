@@ -27,5 +27,5 @@ export default async function CustomSignInPage() {
                 </Card>
             </div>
         );
-      }
+      } 
 }
