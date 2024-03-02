@@ -12,7 +12,6 @@ import {
 import Image from "next/image";
 import { Button } from "@nextui-org/button";
 import { Card, CardBody, CardHeader } from "@nextui-org/card";
-import banner from "./images/fake.gif";
 export default function Home() {
   const cardData = [
     {
